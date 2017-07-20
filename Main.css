@@ -26,7 +26,10 @@ header {
 button {
     font-family: "Gloria Hallelujah";
 }
-
+#ps{
+    font-size:20px;
+    color: white;
+}
 #clickme {
     width: 200px;
     height: 200px;
