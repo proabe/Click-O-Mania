@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(to right, #587e90, #a7bac3);
+    font-family: "Gloria Hallelujah";
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    display: inline;
+}
+
+header {
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    margin: 2px auto;
+    display: none;
+    color: white;
+    background color: #587e90;
+    box-shadow: 2px 2px 2px 2px #668898;
+}
+
+button {
+    font-family: "Gloria Hallelujah";
+}
+
+#clickme {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: 2px solid #587e90;
+    box-shadow: 2px 2px 2px 2px #668898;
+    margin: 50px auto;
+    display: none;
+}
+
+#result {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(142, 68, 173, 0.9);
+    z-index: 20;
+}
+
+#reset {
+    width: 175px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: 2px solid #587e90;
+    box-shadow: 3px 2px 2px 2px #668898;
+    display: none;
+    margin: 50px auto;
+    padding: 2px;
+}
+
+button#clickme:active {
+    background-color: #ef1d1d;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+button#reset:active {
+    background-color: #088b08;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#res {
+    margin: 2px auto;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(95, 38, 119);
+    width: 400px;
+    color: black;
+    padding: 4px;
+}
